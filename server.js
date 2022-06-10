@@ -209,7 +209,7 @@ updateEmployee = () => {
                                 .then(answer => {
                                     employee.updateEmployeeRole(employeeId, answer.roleID);
                                     console.log(`\n`);
-                                    console.log(chalk.bgGray(`\nemployee's role updated`));
+                                    console.log("Employee's role updated.")
                                     console.log(`\n`);
                                     promptUser();
                                 })
